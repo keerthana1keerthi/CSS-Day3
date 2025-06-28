@@ -1,0 +1,29 @@
+.box1{
+    width: 200px;
+    height: 200px;
+    border : 1px solid purple;
+    padding:35px;
+    margin: 25px;
+    box-sizing:content-box;
+    border-top: 2px solid red;
+    border-left: 3px groove green;
+    border-right: 5px dashed orangered;
+    border-bottom: 3px doble hotpink;
+}
+.box2{
+    width:200px;
+    height: 200px;
+    border : 1px solid red;
+    padding:35px;
+    margin: 25px;
+    box-sizing:border-box;
+}
+.box3{
+    width:200px;
+    height: 200px;
+    border:1px solid blue;
+    padding:35px;
+    margin: 25px;
+    box-sizing:margin-box;
+    border-radius: 50%;
+}
